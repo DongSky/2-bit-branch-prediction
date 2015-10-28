@@ -5,13 +5,13 @@
 		cd {path to MyPinTool}
 		make MyPinTool.test TARGET=intel64
 
-### run (using tar to compress the lab folder as an test case)
+### run (using tar to compress the lab folder as a test case)
         ../../../pin  -t obj-intel64/MyPinTool.dylib  --  $HOME/Desktop/tar  -cf $HOME/Desktop/lab.tar $HOME/Desktop/lab
         
 ### result
 
-Total Branches: 1520765
-Branches that predicted correctly: 1441299
-Correct rate : 94.775% 
+Total Branches: 1520765 <br/>
+Branches that predicted correctly: 1441299 <br/>
+Correct rate : 94.775%  
         
 				
