@@ -1,0 +1,9 @@
+2-bit branch prediction using PIN
+=========================================
+
+### compile
+		cd {path to MyPinTool}
+		make MyPinTool.test TARGET=intel64
+
+### run (using tar to compress the lab folder as an test case)
+				
